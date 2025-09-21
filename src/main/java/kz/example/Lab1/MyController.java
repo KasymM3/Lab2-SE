@@ -10,7 +10,6 @@ import java.util.List;
 @Controller
 public class MyController {
 
-    List <Items> itemList = new ArrayList<>();
 
     @GetMapping("/")
     public String mainPage(Model model){
